@@ -72,7 +72,7 @@ It will ask you for:
 - <b> Default region </b>: us-west-2
 - <b> Default output format </b>: Press Enter for default (json)
 
-3. Follow previous steps to check that you can see the S3 buckets and have AWSCLI configured properly. 
+3. Follow previous steps to check that you can see the S3 buckets and have AWSCLI configured properly.
 
 ### Step 4: Upload Files to S3
 Now you're ready to transfer files back and forth from your machine to the S3 buckets. The main commands you want to use are `aws cp` (to copy files individually or recursively move contents of a directory) and `aws sync` (to sync the contents of the origin directory with the destination). AWS CLI is structured where you use a command such as `aws cp <origin> <destination>` to specify where the origin file/folder is and where you want the destination file/folder to go.
