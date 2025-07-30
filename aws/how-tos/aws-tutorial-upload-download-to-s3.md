@@ -1,5 +1,7 @@
 # AWS CLI: How to transfer files to S3 buckets
 
+### If you want to transfer files from your EC2 instance start from Step 1. For interacting with S3 buckets from your local machine start from Step 2.
+
 ### Step 1: Connect to your EC2 instance
 If you connect using Google Remote Desktop skip to Step 2.
 
@@ -52,7 +54,6 @@ aws s3 ls
 
 Example Output First Lines:
 ```
-2024-12-04 10:43:12 aws-glue-assets-389563606246-us-west-2
 2024-11-12 00:10:07 aws-glue-gisaid
 ...
 ```
